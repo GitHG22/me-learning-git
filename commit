@@ -1,0 +1,24 @@
+------------
+# Introduction
+------------
+
+- A commit is an aggregation of all the changes that I have performed while editing out stuff.
+
+------------------
+# How to do a commit
+------------------
+
+- To perform a commit, type ` git commit `
+- A new window(?) would open in nano (or the text editor I use) asking to brief about the commit. The first line would be the heading, while the subsequent things written after it will be the body. I can make it as long as I want, practically.
+- Additionally, `git commit -m "Commit message here" ` can be written for short messages.
+- REMEMBER
+  - To always `git add` all the files that need to be committed.
+  - To always `git status` before doing a commit to check the changes.
+
+------------------------------
+# The Holy Rules of Commiting
+------------------------------
+
+- Commits should be done for each new logical block of a feature implemented, every separate bug that has been fixed, every separate issue that has been fixed. This makes it easier to reference a commit in future, and bisect stuff. Also, in case of a wrong commit, it's easier to just revert the whole commit than remmoving commit and implementing other features separately.
+- Commits should contain fully done stuff. For temporary changes, or things I am still working on before sending a commit for it, see `stash`.
+- Commits should have a descriptive message of things edited. The philosophy(?) of the change.

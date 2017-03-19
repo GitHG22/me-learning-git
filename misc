@@ -1,0 +1,13 @@
+To set up git command-line,
+
+` git config --global user.name "$USERNAME" `
+` git config --global user.email "$EMAIL" `
+
+
+To initialize a repo, 
+
+` git init `
+
+To download a repo,
+
+` git clone $LINK_TO_THE_REPO `
